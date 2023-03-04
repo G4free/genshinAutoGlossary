@@ -5,11 +5,15 @@ Update your input method preferences as Genshin Impact updates and rolls out a n
 ## Attention
 
 1. This software was tested on a macOS device having Python 3.9 installed. It may also work on some other Linux or BSD distros but probably not on a Windows device
-2. You have to git clone <https://github.com/Dimbreath/GenshinData> to your local PC first
+2. You have to git clone <https://gitlab.com/YuukiPS/GC-Resources> to your local PC first
 
 ## How to use
 
-1. git clone this repository to your local disk
+0. git clone this repository to your local disk
+1. git clone https://gitlab.com/YuukiPS/GC-Resources to the project folder (Or download only the latest version of the resource to save your disk space)
+    ```bash
+    git clone https://gitlab.com/YuukiPS/GC-Resources.git
+    ```
 2. Find `Common/conf.py` and change the `dataPath` and `prodPath` variables.
 3. `pip3 install opencc pypinyin`
 4. cd to `{ProjectRoot}` and run `python3 app.py`

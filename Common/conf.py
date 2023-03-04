@@ -1,7 +1,7 @@
 #! /usr/local/bin/python3
 
-dataPath = "/Users/notrachel/git/GenshinData_2.3"
-prodPath = "/Users/notrachel/Library/Rime"
+dataPath = "GC-Resources/Resources"
+# prodPath = "/Users/notrachel/Library/Rime"
 
 ########## STOP - Don't edit anything below this except that you know what you are doing ##########
 
