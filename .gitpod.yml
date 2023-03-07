@@ -5,6 +5,6 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - before: git clone https://gitlab.com/YuukiPS/GC-Resources.git
+  - before: git clone https://gitlab.com/YuukiPS/GC-Resources.git --depth 1
   - init: pip install -r requirements.txt
     command: python3 app.py
